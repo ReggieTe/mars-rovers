@@ -1,0 +1,22 @@
+{
+    "name": "reggiete/marsrover",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Reggie Te",
+            "email": "tembachakoregis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MarsRover\\": "src/",
+            "MarsRover\\Test\\": "test/"
+        }
+    },
+    "require": {
+      "php": ">= 7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
